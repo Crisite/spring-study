@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="user" class="com.crisite.pojo.User">
+	<!-- <property name="name" value="无参"/>  -->
+	
+	<!-- <constructor-arg index="0" value="通过下标索引赋值"/> -->
+	
+	<!--  按类型注入 不推荐使用 当类型一样时无法区分且类型名容易写错 -->
+	<!-- <constructor-arg type="java.lang.String" value="通过类型赋值"/>-->
+	
+	<!--  直接通过参数名来设置 -->
+		<constructor-arg name="name" value="通过参数名称设置"/>
+	</bean>
+	<bean id="userTwo" class="com.crisite.pojo.UserTwo">
+	</bean>
+</beans>

@@ -30,5 +30,7 @@
   <modules>
   	<module>spring01_ioc1</module>
     <module>spring02_ioc2</module>
+    <module>spring03_ioc3</module>
+    <module>spring04_DI</module>
   </modules>
 </project>
