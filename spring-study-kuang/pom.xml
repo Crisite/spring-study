@@ -32,5 +32,8 @@
     <module>spring02_ioc2</module>
     <module>spring03_ioc3</module>
     <module>spring04_DI</module>
+    <module>Spring05-Autowired</module>
+    <module>spring05-Autowired</module>
+    <module>spring06-anno</module>
   </modules>
 </project>
