@@ -1,5 +1,6 @@
 package com.crisite.pojo;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -61,6 +62,19 @@ public class Student {
 	}
 	public void setInfo(Properties info) {
 		this.info = info;
+	}
+	
+	@Override
+	public String toString() {
+		return "Student [name=" + name + 
+				", address=" + address + 
+				", books=" + Arrays.toString(books) + 
+				", hobbys="+ hobbys + 
+				", card=" + card + 
+				", games=" + games + 
+				", wife=" + wife + 
+				", info=" + info + 
+				"]";
 	}
 	
 	
