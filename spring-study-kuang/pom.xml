@@ -12,6 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -26,6 +28,14 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.20</version>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
   <modules>
   	<module>spring01_ioc1</module>
@@ -35,5 +45,7 @@
     <module>Spring05-Autowired</module>
     <module>spring05-Autowired</module>
     <module>spring06-anno</module>
+    <module>Srping-di</module>
+      <module>spring-mvc</module>
   </modules>
 </project>

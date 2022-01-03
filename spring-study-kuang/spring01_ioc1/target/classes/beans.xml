@@ -8,6 +8,6 @@
     <bean id="oracleImpl" class="org.dao.UserDaoOracle" />
 	
 	<bean id="UserServiceImpl" class="org.service.UserServiceImpl">
-		<property name="UserDao" ref="oracleImpl"/>
+		<property name="UserDao" ref="mysqlImpl"/>
 	</bean>
 </beans>
